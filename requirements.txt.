@@ -1,3 +1,2 @@
 nextcord
 python-dotenv
-worker: python main.py
