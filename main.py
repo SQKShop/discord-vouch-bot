@@ -65,4 +65,5 @@ async def on_ready():
     await bot.sync_application_commands()
     print(f"✅ Bot online as {bot.user}")
     
-bot.run("MTM2MTgyNTQwOTEzMzQ0NTEzNA.GxAxX2.RLQjjmB7t9lrogSXcspfteKJlMXr-_sfS-LTM8")
+import os
+bot.run(os.environ["TOKEN"])
